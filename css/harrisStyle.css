@@ -1,0 +1,14 @@
+body{
+    background-image: url("../images/harris.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: inherit;
+    background-color: teal;
+}
+
+#map{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
