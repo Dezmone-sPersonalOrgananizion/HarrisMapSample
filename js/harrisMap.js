@@ -21,9 +21,15 @@ $(document).ready(function () {
 
     //marker
     var marker = new mapboxgl.Marker({
-        color: 'teal',
+        color: '#002c36',
     })
         .setLngLat([-83.37747694511727, 33.959023510866395])
+        .addTo(map)
+
+    // pop up
+    var harrisPopUp = new mapboxgl.Popup()
+        .setLngLat([-83.37747694511727, 33.959023510866395])
+        .setHTML('<h1 class="pop"><em>Harris of Athens</em></h1>')
         .addTo(map)
 
 })

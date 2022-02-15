@@ -4,11 +4,23 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: inherit;
-    background-color: teal;
+    background-color: #002c36;
 }
 
 #map{
     width: 500px;
     height: 500px;
     margin: auto;
+    border-radius: 25px;
+}
+
+.font{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.pop{
+    border-radius: 25px;
+    font-familyt: 'Playfair', sans-serif;
 }
